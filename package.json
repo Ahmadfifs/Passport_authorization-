@@ -1,0 +1,32 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "setup authentication mechanism",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ahmadfifs",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cookies": "^0.8.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "ejs-layouts": "0.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "flash": "^1.1.0",
+    "mongoose": "^5.10.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
